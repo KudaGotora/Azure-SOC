@@ -32,9 +32,10 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![image](https://github.com/user-attachments/assets/62bc0e55-6f60-4911-956f-4ecd4c2ad5ac)
+![image](https://github.com/user-attachments/assets/3b3621b7-7ec0-4480-96e1-5f2088132fbe)
+![image](https://github.com/user-attachments/assets/62476771-f556-44e2-a3b8-bba45d37f899)
+![image](https://github.com/user-attachments/assets/cd26ad25-40a9-40d5-a6b5-1011fcea8aa7)
 
 ## Metrics Before Hardening / Security Controls
 
@@ -44,11 +45,11 @@ Stop Time 2023-03-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 36973
+| Syslog                   | 7054
+| SecurityAlert            | 42
+| SecurityIncident         | 306
+| AzureNetworkAnalytics_CL | 1609
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -62,8 +63,8 @@ Stop Time	2023-03-19 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 10593
+| Syslog                   | 7
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
